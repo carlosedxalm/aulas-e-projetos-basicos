@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        var loginCadastrado = "alura";
+        var senhaCadastrada = "alura321";
+
+        var loginInformado = prompt("Informe seu login");
+        var senhaInformada = prompt("Informe sua senha");
+
+        var maximoTentativas = 3;
+        var tentativaAtual = 1;
+
+        while (tentativaAtual <= maximoTentativas) {
+
+            var loginInformado = prompt("Informe seu login");
+            var senhaInformada = prompt("Informe sua senha");
+
+            if (loginCadastrado == loginInformado && senhaCadastrada == senhaInformada alert("Bem Vindo ao Sistema!" + loginInformado);
+
+                tentativaAtual = maximoTentativas. //acertou, zerar todas as alternativas para o loop parar.
+            }
+            else {
+
+                if (tentativaAtual = 3) {
+                    alert("Esqueceu a sua senha?" + "<a>Clique aqui para recuperar sua senha!</a>");
+                } else {
+                    alert("Nome de usuário ou senha inválidos. Tente novamente!");
+                }
+            }
+    </script>
+
+</body>
+
+</html>

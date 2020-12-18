@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        function mostra(idade) {
+
+            document.write(idade);
+            pulaLinha();
+
+        }
+
+        function pulaLinha() {
+
+            document.write("<br><br>");
+
+        }
+
+        var ano = 2020
+
+        mostra("Carlos Tem " + (ano - 1989) + " anos");
+
+        mostra("Isabella Tem " + (ano - 1998) + " anos");
+
+        var idadeIsabella = 22;
+        var idadeCarlos = 31;
+
+        var diferenca = (idadeCarlos - idadeIsabella);
+        document.write('A diferença da idade de  das idades é ' + Math.round(diferenca));
+
+    </script>
+
+    
+</body>
+</html>
